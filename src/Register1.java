@@ -217,10 +217,13 @@ public class Register1 extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
+        new Login().setVisible(true);  
+         dispose();
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-            new Login().setVisible(true);        // TODO add your handling code here:
+            new Login().setVisible(true);
+             dispose();// TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
